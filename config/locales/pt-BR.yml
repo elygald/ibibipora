@@ -1,0 +1,40 @@
+pt-BR:
+  activerecord:
+    models:
+      member: membros
+    attributes:
+      menber:
+        name: Nome
+        birth_date: Data de Nascimento
+        conversion_time: Tempo de Conversão 
+    errors:
+      models:
+        member:
+          attributes:
+            name:
+              blank: Nome não pode estar em Branco
+            birth_date: 
+              blank: Data de Nascimento não pode estar em Branco
+            conversion_time:  
+              blank: Tempo de Conversão não pode estar em Branco
+        contact:
+          attributes:
+            fhone:
+              blank: telefone não pode estar em Branco
+            email:
+              blank: email não pode estar em Branco
+              invalid: email invalido
+        adderess:
+          attributes:
+            street:
+              blank: Rua não pode estar em Branco
+            number:
+              blank: Numero não pode estar em Branco
+            district:
+              blank: Bairro não pode estar em Branco
+            uf:
+              blank: UF não pode estar em Branco
+            country:
+              blank: País não pode estar em Branco
+            cep:
+              blank: CEP não pode estar em Branco
